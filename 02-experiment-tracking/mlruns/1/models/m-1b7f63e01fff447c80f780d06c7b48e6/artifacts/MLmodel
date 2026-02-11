@@ -1,0 +1,22 @@
+artifact_path: /Users/tianyuwu/Desktop/MyCompany/MLOps_research/mlops-project-0/02-experiment-tracking/mlruns/1/models/m-1b7f63e01fff447c80f780d06c7b48e6/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.23
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.0.3
+mlflow_version: 3.1.4
+model_id: m-1b7f63e01fff447c80f780d06c7b48e6
+model_size_bytes: 4884850
+model_uuid: m-1b7f63e01fff447c80f780d06c7b48e6
+prompts: null
+run_id: 5dccc3dd131741f4879e64c84814d8eb
+utc_time_created: '2026-02-11 02:48:33.952418'
